@@ -1,19 +1,23 @@
 {
   "metainfo" : {
     "migrationVersions" : {
-      "gemBuilderVersion" : "v1"
+      "gemBuilderVersion" : "v1",
+      "unitTestNullDataMigrated" : true
     },
     "functions" : { },
     "codeGenConfiguration" : {
       "editableConfig" : false,
       "plibVersion" : {
-        "mavenVersion" : "8.0.31"
+        "mavenVersion" : "8.8.1"
       }
     },
     "id" : "1",
     "uri" : "pipelines/silver_zip_codes",
+    "pipelineSettingsInfo" : {
+      "isNullValuesInUnitTestsEnabled" : true
+    },
     "language" : "scala",
-    "fabricId" : "1571",
+    "fabricId" : "21538",
     "frontEndLanguage" : "sql",
     "mode" : "batch",
     "udfs" : {
